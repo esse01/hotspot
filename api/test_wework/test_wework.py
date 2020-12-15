@@ -32,6 +32,6 @@ class TestWework:
                                     "mobile": "13800000010"})
         print(res.json())
     def test_delete(self,get_token):
-        userid='zhangsan'
+        userid='littlegoblin1'
         res=requests.get(f'https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token={self.token}&userid={userid}')
         print(res.json())
